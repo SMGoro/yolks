@@ -3,7 +3,7 @@ FROM        --platform=$TARGETOS/$TARGETARCH azul/zulu-openjdk:16
 LABEL       author="Vlssu" maintainer="vlssu@vlssu.com"
 ENV         DEBIAN_FRONTEND noninteractive
 
-LABEL       org.opencontainers.image.source="https://github.com/pterodactyl-china/yolks"
+LABEL       org.opencontainers.image.source="https://github.com/SMGoro/yolks"
 LABEL       org.opencontainers.image.licenses=MIT
 
 RUN 		apt-get update -y \

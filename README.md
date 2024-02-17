@@ -17,93 +17,93 @@
 
 ## 可用镜像
 
-* [`base oses`](https://github.com/pterodactyl-china/yolks/tree/master/oses)
-  * [`alpine`](https://github.com/pterodactyl-china/yolks/tree/master/oses/alpine)
+* [`base oses`](https://github.com/SMGoro/yolks/tree/master/oses)
+  * [`alpine`](https://github.com/SMGoro/yolks/tree/master/oses/alpine)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:alpine`
-  * [`debian`](https://github.com/pterodactyl-china/yolks/tree/master/oses/debian)
+  * [`debian`](https://github.com/SMGoro/yolks/tree/master/oses/debian)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:debian`
-* [`games`](https://github.com/pterodactyl-china/yolks/tree/master/games)
-  * [`rust`](https://github.com/pterodactyl-china/yolks/tree/master/games/rust)
+* [`games`](https://github.com/SMGoro/yolks/tree/master/games)
+  * [`rust`](https://github.com/SMGoro/yolks/tree/master/games/rust)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/games:rust`
-  * [`source`](https://github.com/pterodactyl-china/yolks/tree/master/games/source)
+  * [`source`](https://github.com/SMGoro/yolks/tree/master/games/source)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/games:source`
-* [`golang`](https://github.com/pterodactyl-china/yolks/tree/master/go)
-  * [`go1.14`](https://github.com/pterodactyl-china/yolks/tree/master/go/1.14)
+* [`golang`](https://github.com/SMGoro/yolks/tree/master/go)
+  * [`go1.14`](https://github.com/SMGoro/yolks/tree/master/go/1.14)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:go_1.14`
-  * [`go1.15`](https://github.com/pterodactyl-china/yolks/tree/master/go/1.15)
+  * [`go1.15`](https://github.com/SMGoro/yolks/tree/master/go/1.15)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:go_1.15`
-  * [`go1.16`](https://github.com/pterodactyl-china/yolks/tree/master/go/1.16)
+  * [`go1.16`](https://github.com/SMGoro/yolks/tree/master/go/1.16)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:go_1.16`
-  * [`go1.17`](https://github.com/pterodactyl-china/yolks/tree/master/go/1.17)
+  * [`go1.17`](https://github.com/SMGoro/yolks/tree/master/go/1.17)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:go_1.17`
-* [`java`](https://github.com/pterodactyl-china/yolks/tree/master/java)
-  * [`java8`](https://github.com/pterodactyl-china/yolks/tree/master/java/8)
+* [`java`](https://github.com/SMGoro/yolks/tree/master/java)
+  * [`java8`](https://github.com/SMGoro/yolks/tree/master/java/8)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_8`
-  * [`java8 - OpenJ9`](https://github.com/pterodactyl-china/yolks/tree/master/java/8j9)
+  * [`java8 - OpenJ9`](https://github.com/SMGoro/yolks/tree/master/java/8j9)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_8j9`
-  * [`java8 - Zulu`](https://github.com/pterodactyl-china/yolks/tree/master/java/8zulu)
+  * [`java8 - Zulu`](https://github.com/SMGoro/yolks/tree/master/java/8zulu)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_8zulu`
-  * [`java11`](https://github.com/pterodactyl-china/yolks/tree/master/java/11)
+  * [`java11`](https://github.com/SMGoro/yolks/tree/master/java/11)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_11`
-  * [`java11 - OpenJ9`](https://github.com/pterodactyl-china/yolks/tree/master/java/11j9)
+  * [`java11 - OpenJ9`](https://github.com/SMGoro/yolks/tree/master/java/11j9)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_11j9`
-  * [`java11 - Zulu`](https://github.com/pterodactyl-china/yolks/tree/master/java/11zulu)
+  * [`java11 - Zulu`](https://github.com/SMGoro/yolks/tree/master/java/11zulu)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_11zulu`
-  * [`java16`](https://github.com/pterodactyl-china/yolks/tree/master/java/16)
+  * [`java16`](https://github.com/SMGoro/yolks/tree/master/java/16)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_16`
-  * [`java16 - OpenJ9`](https://github.com/pterodactyl-china/yolks/tree/master/java/16j9)
+  * [`java16 - OpenJ9`](https://github.com/SMGoro/yolks/tree/master/java/16j9)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_16j9`
-  * [`java16 - Zulu`](https://github.com/pterodactyl-china/yolks/tree/master/java/16zulu)
+  * [`java16 - Zulu`](https://github.com/SMGoro/yolks/tree/master/java/16zulu)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_16zulu`
-  * [`java17`](https://github.com/pterodactyl-china/yolks/tree/master/java/17)
+  * [`java17`](https://github.com/SMGoro/yolks/tree/master/java/17)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_17`
-  * [`java17 - OpenJ9`](https://github.com/pterodactyl-china/yolks/tree/master/java/17j9)
+  * [`java17 - OpenJ9`](https://github.com/SMGoro/yolks/tree/master/java/17j9)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_17j9`
-  * [`java17 - Zulu`](https://github.com/pterodactyl-china/yolks/tree/master/java/17zulu)
+  * [`java17 - Zulu`](https://github.com/SMGoro/yolks/tree/master/java/17zulu)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_17zulu`
-  * [`java18`](https://github.com/pterodactyl-china/yolks/tree/master/java/18)
+  * [`java18`](https://github.com/SMGoro/yolks/tree/master/java/18)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_18`
-  * [`java18 - OpenJ9`](https://github.com/pterodactyl-china/yolks/tree/master/java/18j9)
+  * [`java18 - OpenJ9`](https://github.com/SMGoro/yolks/tree/master/java/18j9)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_18j9`
-  * [`java18 - Zulu`](https://github.com/pterodactyl-china/yolks/tree/master/java/18zulu)
+  * [`java18 - Zulu`](https://github.com/SMGoro/yolks/tree/master/java/18zulu)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_18zulu`
-  * [`java19`](https://github.com/pterodactyl-china/yolks/tree/master/java/19)
+  * [`java19`](https://github.com/SMGoro/yolks/tree/master/java/19)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_19`
-  * [`java19 - OpenJ9`](https://github.com/pterodactyl-china/yolks/tree/master/java/19j9)
+  * [`java19 - OpenJ9`](https://github.com/SMGoro/yolks/tree/master/java/19j9)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_19j9`
-  * [`java19 - Zulu`](https://github.com/pterodactyl-china/yolks/tree/master/java/19zulu)
+  * [`java19 - Zulu`](https://github.com/SMGoro/yolks/tree/master/java/19zulu)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_19zulu`
-  * [`java21 - Zulu`](https://github.com/pterodactyl-china/yolks/tree/master/java/21zulu)
+  * [`java21 - Zulu`](https://github.com/SMGoro/yolks/tree/master/java/21zulu)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_21zulu`
-* [`nodejs`](https://github.com/pterodactyl-china/yolks/tree/master/nodejs)
-  * [`node12`](https://github.com/pterodactyl-china/yolks/tree/master/nodejs/12)
+* [`nodejs`](https://github.com/SMGoro/yolks/tree/master/nodejs)
+  * [`node12`](https://github.com/SMGoro/yolks/tree/master/nodejs/12)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:nodejs_12`
-  * [`node14`](https://github.com/pterodactyl-china/yolks/tree/master/nodejs/14)
+  * [`node14`](https://github.com/SMGoro/yolks/tree/master/nodejs/14)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:nodejs_14`
-  * [`node15`](https://github.com/pterodactyl-china/yolks/tree/master/nodejs/15)
+  * [`node15`](https://github.com/SMGoro/yolks/tree/master/nodejs/15)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:nodejs_15`
-  * [`node16`](https://github.com/pterodactyl-china/yolks/tree/master/nodejs/16)
+  * [`node16`](https://github.com/SMGoro/yolks/tree/master/nodejs/16)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:nodejs_16`
-  * [`node17`](https://github.com/pterodactyl-china/yolks/tree/master/nodejs/17)
+  * [`node17`](https://github.com/SMGoro/yolks/tree/master/nodejs/17)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:nodejs_17`
-  * [`node18`](https://github.com/pterodactyl-china/yolks/tree/master/nodejs/18)
+  * [`node18`](https://github.com/SMGoro/yolks/tree/master/nodejs/18)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:nodejs_18`
-* [`python`](https://github.com/pterodactyl-china/yolks/tree/master/python)
-  * [`python3.7`](https://github.com/pterodactyl-china/yolks/tree/master/python/3.7)
+* [`python`](https://github.com/SMGoro/yolks/tree/master/python)
+  * [`python3.7`](https://github.com/SMGoro/yolks/tree/master/python/3.7)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:python_3.7`
-  * [`python3.8`](https://github.com/pterodactyl-china/yolks/tree/master/python/3.8)
+  * [`python3.8`](https://github.com/SMGoro/yolks/tree/master/python/3.8)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:python_3.8`
-  * [`python3.9`](https://github.com/pterodactyl-china/yolks/tree/master/python/3.9)
+  * [`python3.9`](https://github.com/SMGoro/yolks/tree/master/python/3.9)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:python_3.9`
-  * [`python3.10`](https://github.com/pterodactyl-china/yolks/tree/master/python/3.10)
+  * [`python3.10`](https://github.com/SMGoro/yolks/tree/master/python/3.10)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:python_3.10`
-  * [`python3.11`](https://github.com/pterodactyl-china/yolks/tree/master/python/3.11)
+  * [`python3.11`](https://github.com/SMGoro/yolks/tree/master/python/3.11)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:python_3.11`
 
 ### 安装镜像
 
-* [`alpine-install`](https://github.com/pterodactyl-china/yolks/tree/master/installers/alpine)
+* [`alpine-install`](https://github.com/SMGoro/yolks/tree/master/installers/alpine)
   * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/installers:alpine`
 
-* [`debian-install`](https://github.com/pterodactyl-china/yolks/tree/master/installers/debian) (该镜像暂时不支持 `linux/arm64`)
+* [`debian-install`](https://github.com/SMGoro/yolks/tree/master/installers/debian) (该镜像暂时不支持 `linux/arm64`)
   * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/installers:debian`
