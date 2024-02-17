@@ -4,7 +4,7 @@
 FROM    debian:bookworm-slim
 
 LABEL       author="Torsten Widmann" maintainer="info@goover.de"
-LABEL       org.opencontainers.image.source="https://github.com/gOOvER/own-pterodactyl-images"
+LABEL       org.opencontainers.image.source="https://github.com/SMGoro/yolks"
 LABEL       org.opencontainers.image.licenses=MIT
 
 

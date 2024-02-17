@@ -1,7 +1,7 @@
 FROM    debian:bookworm-slim
 
 LABEL       author="Torsten Widmann" maintainer="info@goover.de"
-LABEL       org.opencontainers.image.source="https://github.com/gOOvER/own-pterodactyl-images"
+LABEL       org.opencontainers.image.source="https://github.com/SMGoro/yolks"
 
 # Sets the default stop signal as wings can (currently) only send a kill or generic stop
 STOPSIGNAL SIGINT
