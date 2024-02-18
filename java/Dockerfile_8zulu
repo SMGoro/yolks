@@ -11,8 +11,7 @@ RUN         sed -i 's@//.*archive.ubuntu.com@//mirrors.ustc.edu.cn@g' /etc/apt/s
             && sed -i 's/https/http/g' /etc/apt/sources.list \
             && sed -i 's/http/https/g' /etc/apt/sources.list
 
-RUN         chmod a+r /etc/apt/keyrings/docker.gpg \
-            && chmod a+r /usr/share/keyrings/docker-archive-keyring.gpg
+RUN         chmod a+r /usr/share/keyrings/docker-archive-keyring.gpg
 
 RUN 		apt update --allow-unauthenticated --allow-insecure-repositories -y \
             && apt install -y lsof curl ca-certificates openssl git tar sqlite3 fontconfig libfreetype6 tzdata iproute2 libstdc++6 locales \
