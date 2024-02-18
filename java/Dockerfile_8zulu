@@ -6,9 +6,9 @@ ENV         DEBIAN_FRONTEND noninteractive
 LABEL       org.opencontainers.image.source="https://github.com/SMGoro/yolks"
 LABEL       org.opencontainers.image.licenses=MIT
 
-RUN         sed -i 's@//.*archive.ubuntu.com@//mirrors.ustc.edu.cn@g' /etc/apt/sources.list \
+RUN         sed -i 's@//.*archive.ubuntu.com@//mirrors.ustc.edu.cn@g' /etc/apt/sources.list &&
             sed -i 's/security.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list
-            
+
 RUN 		apt-get update -y \
             && apt-get install -y lsof curl ca-certificates openssl git tar sqlite3 fontconfig libfreetype6 tzdata iproute2 libstdc++6 locales \
             && useradd -m -d /home/container container \
