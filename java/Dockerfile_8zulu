@@ -7,7 +7,7 @@ LABEL       org.opencontainers.image.source="https://github.com/SMGoro/yolks"
 LABEL       org.opencontainers.image.licenses=MIT
 
 RUN         sed -i 's@//.*archive.ubuntu.com@//mirrors.ustc.edu.cn@g' /etc/apt/sources.list \
-            && sed -i 's/security.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list \
+            && sed -i 's/security.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list
 #             && sed -i 's/https/http/g' /etc/apt/sources.list \
 #             && sed -i 's/http/https/g' /etc/apt/sources.list
 
